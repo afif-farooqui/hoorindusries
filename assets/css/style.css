@@ -76,11 +76,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-transparent {
-  background: transparent;
+  background: white;
 }
 
 #header.header-scrolled {
-  background: rgba(42, 44, 57, 0.9);
+  /*background: rgba(42, 44, 57, 0.9);*/
+  background-color: white;
 }
 
 #header .logo h1 {
@@ -101,6 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
   max-height: 40px;
+  max-width: 76px;
 }
 
 /*--------------------------------------------------------------
@@ -122,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fff;
+  color: black;
   padding: 5px 15px 7px 15px;
   margin-left: 5px;
   transition: 0.3s;
@@ -332,6 +334,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   background: linear-gradient(0deg, #2a2c39 0%, #33364a 100%);
   padding: 0;
+  margin-top: 25px;
 }
 
 #hero .carousel-container {
@@ -1597,4 +1600,20 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+.material-icons-round {
+  font-family: 'Material Icons Round';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 61px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
 }
